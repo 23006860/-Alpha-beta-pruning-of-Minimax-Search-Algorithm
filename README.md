@@ -1,6 +1,6 @@
 <h1>ExpNo 7 : Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
-<h3>Name: DHARSHAN D   </h3>
-<h3>Register Number: 212223230045  </h3>
+<h3>Name: DHARSHAN D</h3>
+<h3>Register Number: 212223230045       </h3>
 <H3>Aim:</H3>
 <p>
 Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game
@@ -23,9 +23,9 @@ Alpha–Beta (𝛼−𝛽) algorithm is actually an improved minimax using a heu
 
 When added to a simple minimax algorithm, it gives the same output but cuts off certain branches that can’t possibly affect the final decision — dramatically improving the performance
 <hr>
+<h2>Program:</h2>
 
-# PROGRAM:
-```python
+```
 import time
 
 class Game:
@@ -207,16 +207,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
 ```
 
-<h2> Output:</h2>
+## Output:
+<img src='https://github.com/user-attachments/assets/867eccf9-64c0-4da5-afdf-de52510ac2ef' width=50%>
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/81575a16-26b2-46f1-a8ac-27c9ed0a0fe5)
-
-# RESULT:
-
+## Result:
 We have successfully implemented Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game
-
-
-
-
